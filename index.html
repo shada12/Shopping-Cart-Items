@@ -1,0 +1,43 @@
+<html>
+<head>
+ <title>Lab 7</title>
+
+
+ <style>
+ td
+ {
+   outline: black solid 1px;
+ }
+</style>
+</head>
+<body>
+<h3>Shopping Cart Items</h3>
+<p>Click on image to add to cart</p>
+
+<table>
+<tr>
+<td class ='item' id="trident"><img src="img/gum3.jpg">Trident</td>
+<td class ='item' id="bubbleGum"><img src="img/gum4.jpg">Bubble Gum</td>
+<td class ='item' id="doubleMint"><img src="img/gum2.jpg">Double Mint</td>
+<td class ='item' id ="extra"><img src="img/gum1.jpg">Extra</td>
+</tr>
+
+<tr>
+<td colspan = "2">Shopping Cart Total</td>
+<td colspan ="2" id="totalPrice">$0.00</td>
+</tr>
+
+<tr>
+<td colspan = "2">Shopping Cart Items</td>
+<td colspan = "2" id="totalItems">0</td>
+</tr>
+
+<tr>
+<td colspan = "4"><button id="clearButton">Clear</button></td>
+</tr>
+
+
+</table>
+<script src="scripts/index.js"></script>
+</body>
+</html>
