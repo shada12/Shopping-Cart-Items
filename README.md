@@ -1,2 +1,2 @@
 # Shopping-Cart-Items
-Created a shoping cart using JavaScript.
+Created shoping cart using JavaScript.
