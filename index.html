@@ -14,10 +14,18 @@
  {
    outline: black solid 1px;
  }
+  
+  #heading{
+    align-content: center;
+  }
+  
 </style>
+ 
 </head>
+ 
 <body>
-<h3>Shopping Cart Items</h3>
+ 
+<h3 id="heading">Shopping Cart Items</h3>
 <p>Click on image to add items to cart</p>
 
 <table class="table">
@@ -28,18 +36,18 @@
 <td class ='item' id ="extra"><img src="img/gum1.jpg">Extra</td>
 </tr>
 
-<tr>
+<tr  class="table-danger">
 <td colspan = "2">Shopping Cart Total</td>
 <td colspan ="2" id="totalPrice">$0.00</td>
 </tr>
 
-<tr>
+<tr class="table-info">
 <td colspan = "2">Shopping Cart Items</td>
 <td colspan = "2" id="totalItems">0</td>
 </tr>
 
 <tr>
-<td colspan = "4"><button class="btn btn-primary" id="clearButton">Clear</button></td>
+<td colspan = "4"><button class="btn btn-lg btn-primary" id="clearButton">Clear</button></td>
 </tr>
 
 
@@ -47,8 +55,9 @@
 <script src="scripts/index.js"></script>
  
   <!-- Bootstrap JS -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
- 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
  
 </body>
 </html>
